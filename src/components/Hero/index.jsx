@@ -17,9 +17,9 @@ const Hero = () => {
           dishes and unforgettable food experiences.
         </p>
 
-        <a href="/menu" className="hero-button">
+        <Link href="/menu" className="hero-button">
           Explore Menu ↗
-        </a>
+        </Link>
 
         <div className="hero-stats">
           <div>
