@@ -1,6 +1,6 @@
 
 import './index.css'
-
+import {Link} from 'react-router-dom'
 const Hero = () => {
   return (
     <section className="hero" id="home">
@@ -17,7 +17,7 @@ const Hero = () => {
           dishes and unforgettable food experiences.
         </p>
 
-        <Link href="/menu" className="hero-button">
+        <Link to="/menu" className="hero-button">
           Explore Menu ↗
         </Link>
 
