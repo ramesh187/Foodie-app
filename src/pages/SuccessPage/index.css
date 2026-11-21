@@ -1,0 +1,58 @@
+
+.success-page {
+  min-height: 75vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 70px 20px;
+  background:
+    radial-gradient(
+      circle at 20% 20%,
+      #d1fae5,
+      transparent 35%
+    ),
+    #f8faf9;
+}
+
+.success-modal {
+  text-align: center;
+}
+
+.success-icon {
+  width: 75px;
+  height: 75px;
+  display: grid;
+  place-items: center;
+  margin: 0 auto 25px;
+  border-radius: 50%;
+  background: #d1fae5;
+  color: #047857;
+  font-size: 38px;
+  font-weight: 700;
+}
+
+.success-modal h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 32px;
+  margin: 15px 0;
+}
+
+.success-modal > p {
+  color: #718078;
+  font-size: 13px;
+  margin: 8px 0;
+}
+
+.order-items {
+  margin: 25px 0;
+  padding: 0 5px;
+  border-top: 1px solid #edf1ee;
+}
+
+.success-modal .total-row {
+  border-top: 1px solid #edf1ee;
+}
+
+.success-modal .checkout-button {
+  margin-top: 20px;
+}

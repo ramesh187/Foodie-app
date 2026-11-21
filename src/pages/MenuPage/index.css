@@ -1,0 +1,61 @@
+
+.menu-page {
+  min-height: 100vh;
+  padding: 50px 6%;
+  background: #f8faf9;
+}
+
+.menu-page .food-menu {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+/* Menu page heading */
+.menu-page-header {
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.menu-page-header p {
+  color: #15966b;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+}
+
+.menu-page-header h1 {
+  color: #172b25;
+  font-family: 'Playfair Display', serif;
+  font-size: 42px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.menu-page-header span {
+  color: #718078;
+  font-size: 15px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .menu-page {
+    padding: 35px 5%;
+  }
+
+  .menu-page-header h1 {
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 480px) {
+  .menu-page-header h1 {
+    font-size: 27px;
+  }
+
+  .menu-page-header span {
+    font-size: 13px;
+  }
+}
